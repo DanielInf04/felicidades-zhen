@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felicidades 🎂</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Pantalla principal -->
+    <section class="screen" id="screen-start">
+        <div class="card hero" id="main-screen">
+            <p class="tag">生日快乐</p>
+            <h1>¡Feliz cumpleaños, <span id="name">Zhen</span>! 🎉</h1>
+            <p class="subtitle">Te hice un pequeño regalo 🥺🥺</p><br>
+
+            <button class="btn" id="abrirSorpresa">Abrir la sorpresa ✨</button>
+        </div>
+    </section>
+
+    <!-- Contenido -->
+    <main class="screen hidden" id="screen-main">
+        <div class="layout">
+            <!-- Cabecera -->
+            <header class="card">
+                <h2>Esto es para ti</h2>
+                <p class="muted">
+                    <strong>生日快乐</strong> (Feliz cumpleaños)
+                    <strong>祝你天天开心</strong> (Te deseo felicidad cada día).
+                </p>
+            </header>
+
+            <!-- Sección regalo -->
+            <section class="card">
+                <h3>Mi mensaje a la distancia</h3>
+                <p id="message">
+                    Gracias por ser mi mejor amiga. Por apoyarme, por reírte conmigo y por estar en los días buenos y en los malos.
+                    Quién iba a decir que aquellas prácticas nos unirían así, justo en el momento perfecto.
+                    <br><br>
+                    Me alegra muchísimo poder compartir esta etapa contigo y haber coincidido en un momento tan importante.
+                    <br><br>
+                    Disfruta mucho del viaje y de estos días en China.
+                </p>
+                <!-- Botones de acciones -->
+                <div class="actions">
+                    <button class="btn secondary" id="mostrarSorpresa">Ver sorpresa 🎁</button>
+                </div>
+
+                <!-- Contenido de la sorpresa -->
+                <div class="gift hidden" id="cajaSorpresa">
+                    <p class="giftTitle">Sorpresa:</p>
+                    <p class="giftText">
+                        Hoy te toca recordarlo: <strong>vales mucho y vas a poder terminar el curso</strong>.
+                        Estoy contigo 💚
+                    </p>
+                </div>
+            </section>
+
+            <!-- Sección -->
+            <section></section>
+
+            <!-- Footer -->
+             <footer class="card small">
+                <p class="muted">
+                    Hecho por Daniel ✨
+                </p>
+             </footer>
+        </div>
+    </main>
+
+     <script src="balloons.min.js"></script>
+     <script src="script.js"></script>
+</body>
+</html>
