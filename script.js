@@ -1,4 +1,5 @@
 window.onload = () => {
+
     let times = 0;
 
     const interval = setInterval(() => {
