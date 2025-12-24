@@ -27,7 +27,7 @@
 
 * { box-sizing: border-box; }
 html,body {
-    height: 150%;
+    height: auto;
 }
 body {
     margin: 0;
